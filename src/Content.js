@@ -140,6 +140,21 @@ function BoilerPlate() {
     return (
         <>
             <h1 id="boiler-plate" className="text-center">Boiler Plate Code</h1>
+            <p className="p-2">HTML</p>
+            <div className="p-2">
+                <code>{`<!DOCTYPE html>`}</code>
+                <br />
+                <code>{`<html lang="en">`}</code>
+                <br />
+                <pre><code>{`  <head>`}</code></pre>
+                <pre><code>{`    <meta charset="utf-8" />`}</code></pre>
+                <pre><code>{`    <meta name="viewport" content="width=device-width, initial-scale=1" />`}</code></pre>
+                <pre><code>{`    <title>A Title</title>`}</code></pre>
+                <pre><code>{`  </head>`}</code></pre>
+                <pre><code>{`  <body>`}</code></pre>
+                <pre><code>{`  </body>`}</code></pre>
+                <code>{`</html>`}</code>
+            </div>
         </>
     )
 }
