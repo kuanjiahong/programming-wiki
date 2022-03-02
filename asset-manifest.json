@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/programming-wiki/static/css/main.b9669fe3.css",
+    "main.js": "/programming-wiki/static/js/main.dea7a647.js",
+    "static/js/787.27bfe3eb.chunk.js": "/programming-wiki/static/js/787.27bfe3eb.chunk.js",
+    "index.html": "/programming-wiki/index.html",
+    "main.b9669fe3.css.map": "/programming-wiki/static/css/main.b9669fe3.css.map",
+    "main.dea7a647.js.map": "/programming-wiki/static/js/main.dea7a647.js.map",
+    "787.27bfe3eb.chunk.js.map": "/programming-wiki/static/js/787.27bfe3eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9669fe3.css",
+    "static/js/main.dea7a647.js"
+  ]
+}
