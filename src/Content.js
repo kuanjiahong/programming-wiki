@@ -3,6 +3,9 @@ function Content() {
         <div className="container mx-auto px-5 sm:px-20 md:px-20 min-h-screen">
             <DataType />
             <Syntax />
+            <WebDev />
+            <OOP />
+            <BoilerPlate />
         </div>
     )
 }
@@ -45,10 +48,98 @@ function DataType() {
     )
 }
 
+
 function Syntax() {
     return (
         <>
         <h1 id="syntax" className="text-center">Syntax</h1>
+        <p className="p-2">C</p>
+        <div className="p-2">
+            <code>#include {`<stdio.h>`} </code>
+            <br />
+            <code>int main() {`{`}</code>
+            <pre><code>  printf("Hello World!");</code></pre>
+            <pre><code>  if (condition) {`{`}</code></pre>
+            <pre><code>    {`//TODO`}</code></pre>
+            <pre><code>  {`}`} else {`{`}</code></pre>
+            <pre><code>    {`// TODO`}</code></pre>
+            <pre><code>  {`}`}</code></pre>
+            <pre><code>  return 0;</code></pre>
+            <code>{`}`}</code>
+        </div>
+        <p className="p-2">C++</p>
+        <div className="p-2">
+            <code>#include {`<iostream>`}</code>
+            <br />
+            <code>using namespace std;</code>
+            <br />
+            <code>int main() {`{`}</code>
+            <pre><code>  {`cout << "Hello World!" << endl;`}</code></pre>
+            <pre><code>  if (condition) {`{`}</code></pre>
+            <pre><code>    {`//TODO`}</code></pre>
+            <pre><code>  {`}`} else {`{`}</code></pre>
+            <pre><code>    {`// TODO`}</code></pre>
+            <pre><code>  {`}`}</code></pre>
+            <pre><code>  return 0;</code></pre>
+            <code>{`}`}</code>
+        </div>
+        <p className="p-2">Java</p>
+        <div className="p-2">
+            <code>public class HelloWorld {`{`}</code>
+            <pre><code>  public static void main (Strings[] args) {`{`}</code></pre>
+            <pre><code>    System.out.println("Hello World");</code></pre>
+            <pre><code>  {`}`}</code></pre>
+            <code>{`}`}</code>
+        </div>
+        <p className="p-2">Python</p>
+        <div className="p-2">
+            <code>print("Hello World")</code>
+            <br />
+            <pre><code>if <i>condition</i>:</code></pre>
+            <pre><code>  {`#TODO`}</code></pre>
+            <code>else:</code>
+            <pre><code>  {`#TODO`}</code></pre>
+        </div>
+        </>
+    )
+}
+
+function WebDev() {
+    return (
+        <>
+        <h1 id="web-development" className="text-center">Web development</h1>
+        <ul>
+            <li><a className="underline" href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noreferrer">ReactJS</a></li>
+            <li><a className="underline" href="https://vuejs.org/" target="_blank" rel="noreferrer">VueJS</a></li>
+            <li><a className="underline" href="https://laravel.com/" target="_blank" rel="noreferrer">Laravel</a></li>
+            <li><a className="underline" href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">Django</a></li>
+            <li><a className="underline" href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank" rel="noreferrer">Flask</a></li>
+            <li><a className="underline" href="https://nextjs.org/" target="_blank" rel="noreferrer">NextJS</a></li>
+        </ul>
+        </>
+
+    )
+}
+
+function OOP() {
+    return (
+        <>
+            <h1 id="oop" className="text-center">OOP</h1>
+            <p className="p-2">The main concepts of Object-Oriented Programming(OOP): <b>A PIE</b></p>
+            <div className="p-2">
+                <p><b>A</b>bsraction</p>
+                <p><b>P</b>olymorphism</p>
+                <p><b>I</b>nheritance</p>
+                <p><b>E</b>ncapsulation</p>
+            </div>
+        </>
+    )
+}
+
+function BoilerPlate() {
+    return (
+        <>
+            <h1 id="boiler-plate" className="text-center">Boiler Plate Code</h1>
         </>
     )
 }
