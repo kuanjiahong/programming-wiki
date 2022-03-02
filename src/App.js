@@ -29,8 +29,8 @@ import NavBar from './NavBar';
 function App() {
   return (
     <>
-    <NavBar />
     <Intro />
+    <NavBar />
     <Content />
     <Footer />
     </>
